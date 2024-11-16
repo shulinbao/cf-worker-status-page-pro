@@ -9,18 +9,18 @@ export const config: Config = {
   },
   monitors: [
     {
-      id: '1',
+      id: 'api',
       url: 'https://oneapi.nu.ac.cn',
       name: 'API Service',
     },
     {
-      id: '2',
+      id: 'internal',
       url: 'https://g.nu.ac.cn',
       name: 'Internal Chat Service',
       description: 'Built for anything connected to the Internet.',
     },
     {
-      id: '3',
+      id: 'public',
       url: 'https://gpt.nu.ac.cn',
       name: 'Public Chat Service',
       followRedirect: true,
