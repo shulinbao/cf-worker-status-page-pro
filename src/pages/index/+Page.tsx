@@ -95,14 +95,14 @@ export default function Page() {
         <span>
           Powered by
           {' '}
-          <a href='https://workers.cloudflare.com/' target='_blank' rel='noreferrer'>
-            Cloudflare Workers
+          <a href='https://cloudflare.com/' target='_blank' rel='noreferrer'>
+            Cloudflare
           </a>
           {' '}
           &
           {' '}
-          <a href='https://vike.dev/' target='_blank' rel='noreferrer'>
-            Vike
+          <a href='https://oneapi.nu.ac.cn/' target='_blank' rel='noreferrer'>
+            HorseGPT
           </a>
         </span>
         <a
@@ -112,7 +112,7 @@ export default function Page() {
           className='flex items-center gap-1'
         >
           <span className='i-ic--outline-star size-4 animate-bounce' />
-          Get your status page
+          Information is subject to the actual services provided
         </a>
       </footer>
     </div>
