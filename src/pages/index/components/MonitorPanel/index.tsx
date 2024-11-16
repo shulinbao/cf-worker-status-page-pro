@@ -180,10 +180,10 @@ const MonitorPanel: React.FC<IMonitorPanelProps> = (props) => {
                 && (
                   <a
                     className='i-ic--outline-open-in-new size-5 text-slate-500 hover:text-slate-400'
-                    href={monitorConfig.url}
+                    href={"https://api.nu.ac.cn"}
                     target='_blank'
                     rel='noreferrer'
-                    title='Open in new tab'
+                    title='Open HorseGPT API Site'
                   >
                     <span className='sr-only'>{title}</span>
                   </a>
