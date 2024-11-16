@@ -125,10 +125,6 @@ const MonitorPanel: React.FC<IMonitorPanelProps> = (props) => {
                     value: (monitorConfig.method || 'GET').toUpperCase(),
                   },
                   {
-                    key: 'URL',
-                    value: monitorConfig.url,
-                  },
-                  {
                     key: 'Expect Status',
                     value: monitorConfig.expectStatus || 200,
                   },
@@ -178,6 +174,7 @@ const MonitorPanel: React.FC<IMonitorPanelProps> = (props) => {
                     </TooltipContent>
                   </Tooltip>
                 )}
+                {/* 
                 {monitorConfig
                 && (!monitorConfig.method || monitorConfig.method.toUpperCase() === 'GET')
                 && (
@@ -191,6 +188,7 @@ const MonitorPanel: React.FC<IMonitorPanelProps> = (props) => {
                     <span className='sr-only'>{title}</span>
                   </a>
                 )}
+                */}
               </div>
               <ul className='flex gap-1'>
                 {getHistoryDates().map((dateItem) => {
