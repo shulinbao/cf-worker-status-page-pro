@@ -2,27 +2,26 @@ import type { Config } from './types'
 
 export const config: Config = {
   settings: {
-    title: 'Status Page Pro',
-    url: 'https://cf-worker-status-page-pro-production.yunsii.workers.dev',
+    title: 'HorseGPT Services Status',
+    url: 'https://status.nu.ac.cn',
     displayDays: 90,
     collectResponseTimes: true,
   },
   monitors: [
     {
-      id: 'workers.cloudflare.com',
-      url: 'https://workers.cloudflare.com',
-      description: 'You write code. They handle the rest.',
-      followRedirect: false,
+      id: 'API Service',
+      url: 'https://oneapi.nu.ac.cn',
     },
     {
-      id: 'www.cloudflare.com',
-      url: 'https://www.cloudflare.com',
+      id: 'VIP Chat Service',
+      url: 'https://g.nu.ac.cn',
       description: 'Built for anything connected to the Internet.',
     },
     {
-      id: 'blog.cloudflare.com',
-      url: 'https://blog.cloudflare.com',
+      id: 'Public Chat Service',
+      url: 'https://gpt.nu.ac.cn',
       name: 'The Cloudflare Blog',
+      followRedirect: true,
     },
     {
       id: 'google',
