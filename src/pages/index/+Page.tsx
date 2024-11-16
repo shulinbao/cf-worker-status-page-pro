@@ -112,7 +112,7 @@ export default function Page() {
           className='flex items-center gap-1'
         >
           <span className='i-ic--outline-star size-4 animate-bounce' />
-          Information is subject to the actual services provided
+          Information is for reference only
         </a>
       </footer>
     </div>
