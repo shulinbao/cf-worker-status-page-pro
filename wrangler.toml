@@ -29,3 +29,6 @@ crons = [
 # wrangler.toml (wrangler v3.79.0^)
 [observability.logs]
 enabled = true
+
+[observability]
+enabled = true
