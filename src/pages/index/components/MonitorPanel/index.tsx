@@ -59,7 +59,7 @@ const MonitorPanel: React.FC<IMonitorPanelProps> = (props) => {
         }}
       >
         <div>
-          {allOperational ? 'All Systems Operational' : 'Not All Systems Operational'}
+          {allOperational ? 'All Systems Working' : 'Not All Systems Working'}
         </div>
         {!!data.lastUpdate && (
           <div className='text-xs font-light' suppressHydrationWarning title={new Date(data.lastUpdate.time).toLocaleString()}>
@@ -173,8 +173,7 @@ const MonitorPanel: React.FC<IMonitorPanelProps> = (props) => {
                       })}
                     </TooltipContent>
                   </Tooltip>
-                )}
-                {/* 
+                )} 
                 {monitorConfig
                 && (!monitorConfig.method || monitorConfig.method.toUpperCase() === 'GET')
                 && (
@@ -188,7 +187,6 @@ const MonitorPanel: React.FC<IMonitorPanelProps> = (props) => {
                     <span className='sr-only'>{title}</span>
                   </a>
                 )}
-                */}
               </div>
               <ul className='flex gap-1'>
                 {getHistoryDates().map((dateItem) => {
