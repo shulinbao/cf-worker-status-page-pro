@@ -9,33 +9,21 @@ export const config: Config = {
   },
   monitors: [
     {
-      id: 'API Service',
+      id: '1',
       url: 'https://oneapi.nu.ac.cn',
+      name: 'API Service',
     },
     {
-      id: 'VIP Chat Service',
+      id: '2',
       url: 'https://g.nu.ac.cn',
+      name: 'Internal Chat Service',
       description: 'Built for anything connected to the Internet.',
     },
     {
-      id: 'Public Chat Service',
+      id: '3',
       url: 'https://gpt.nu.ac.cn',
-      name: 'The Cloudflare Blog',
+      name: 'Public Chat Service',
       followRedirect: true,
-    },
-    {
-      id: 'google',
-      url: 'https://www.google.com/',
-      name: 'Google',
-      followRedirect: true,
-    },
-    {
-      id: 'bilibili',
-      url: 'https://www.bilibili.com/',
-    },
-    {
-      id: 'GitHub',
-      url: 'https://github.com/',
     },
   ],
   monitorsCsvUrl: 'https://docs.google.com/spreadsheets/d/e/2PACX-1vSnewwW9OuXgtuutyYSfFJ_AZdI-UpkUjP2wWi-zZWM3MKa8IzBceWCe9qB_-Lmk-S7mSFgqKVnokam/pub?gid=0&single=true&output=csv',
