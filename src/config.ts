@@ -12,19 +12,21 @@ export const config: Config = {
       id: 'api',
       url: 'https://oneapi.nu.ac.cn',
       name: 'API Service',
+      description: 'This is a one-stop API service provided by the HorseGPT project.',
     },
     {
       id: 'internal',
       url: 'https://g.nu.ac.cn',
       name: 'Internal Chat Service',
-      description: 'Built for anything connected to the Internet.',
+      description: 'This is the server that HorseGPT provides for testing services for internal developers.',
     },
     {
       id: 'public',
       url: 'https://gpt.nu.ac.cn',
       name: 'Public Chat Service',
+      description: 'This is the server that the HorseGPT project provides for limited chat services to the public.',
       followRedirect: true,
     },
   ],
-  monitorsCsvUrl: 'https://docs.google.com/spreadsheets/d/e/2PACX-1vSnewwW9OuXgtuutyYSfFJ_AZdI-UpkUjP2wWi-zZWM3MKa8IzBceWCe9qB_-Lmk-S7mSFgqKVnokam/pub?gid=0&single=true&output=csv',
+  monitorsCsvUrl: 'https://docs.google.com/spreadsheets/d/e/2PACX-1vT4DpeTA62A4p9S1QFcCqmMsHi5FImOMMxy6JFnemTEh56-HdYoGdG3ENoVBgxBd0t8DYbbEAXX5Wf9/pub?gid=0&single=true&output=csv',
 }
