@@ -26,5 +26,5 @@ export const config: Config = {
       followRedirect: true,
     },
   ],
-  monitorsCsvUrl: 'https://docs.google.com/spreadsheets/d/e/2PACX-1vSnewwW9OuXgtuutyYSfFJ_AZdI-UpkUjP2wWi-zZWM3MKa8IzBceWCe9qB_-Lmk-S7mSFgqKVnokam/pub?gid=0&single=true&output=csv',
+  monitorsCsvUrl: 'https://docs.google.com/spreadsheets/d/e/2PACX-1vT4DpeTA62A4p9S1QFcCqmMsHi5FImOMMxy6JFnemTEh56-HdYoGdG3ENoVBgxBd0t8DYbbEAXX5Wf9/pub?output=csv',
 }
