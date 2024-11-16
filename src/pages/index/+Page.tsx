@@ -106,7 +106,7 @@ export default function Page() {
           </a>
         </span>
         <a
-          href='https://github.com/yunsii/cf-worker-status-page-pro'
+          href='https://api.nu.ac.cn'
           target='_blank'
           rel='noreferrer'
           className='flex items-center gap-1'
