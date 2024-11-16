@@ -5,7 +5,7 @@ compatibility_flags = [ "streams_enable_constructors" ]
 compatibility_date = "2021-09-29"
 workers_dev = true
 # npx --no -- wrangler kv:namespace create cf-worker-status-page-pro
-kv_namespaces = [ { binding = "KV_STORE", id = "83944df5b99b43a5804ba0902579194f" }, ]
+kv_namespaces = [ { binding = "KV_STORE", id = "b662d8da419c4319a4726134b2569e7a" }, ]
 
 [site]
 bucket = "./dist/client"
@@ -14,7 +14,7 @@ bucket = "./dist/client"
 port = 3000
 
 [env.production]
-kv_namespaces = [ { binding = "KV_STORE", id = "83944df5b99b43a5804ba0902579194f" }, ]
+kv_namespaces = [ { binding = "KV_STORE", id = "b662d8da419c4319a4726134b2569e7a" }, ]
 
 [env.production.triggers]
 crons = [
