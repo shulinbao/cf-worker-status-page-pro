@@ -193,7 +193,7 @@ const MonitorPanel: React.FC<IMonitorPanelProps> = (props) => {
                   const targetDateChecksItem = monitorData ? getTargetDateChecksItem(monitorData, dateItem) : undefined
                   const renderStatus = monitorData ? getChecksItemRenderStatus(monitorData, dateItem) : undefined
 
-                  let color = cls`bg-sky-50`
+                  let color = cls`bg-sky-200`
                   let textColor = cls`text-gray-300`
                   let statusStr: React.ReactNode = null
 
