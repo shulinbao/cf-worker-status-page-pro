@@ -144,12 +144,12 @@ const MonitorPanel: React.FC<IMonitorPanelProps> = (props) => {
           return (
             <li key={item} className={cls`[&:not(:last-child)]:mb-2`}>
               <div className='mb-1 flex items-center gap-2'>
-                <h2 className='text-slate-950'>
+                <h2 className='text-sky-500'>
                   {title}
                 </h2>
                 {!!info.length && (
                   <Tooltip>
-                    <TooltipTrigger className={cls` size-5 text-slate-500`}>
+                    <TooltipTrigger className={cls` size-5 text-sky-300`}>
                       <span className={cls`i-ic--outline-info size-full`} />
                     </TooltipTrigger>
                     <TooltipContent
@@ -178,7 +178,7 @@ const MonitorPanel: React.FC<IMonitorPanelProps> = (props) => {
                 && (!monitorConfig.method || monitorConfig.method.toUpperCase() === 'GET')
                 && (
                   <a
-                    className='i-ic--outline-open-in-new size-5 text-slate-500 hover:text-slate-400'
+                    className='i-ic--outline-open-in-new size-5 text-sky-300 hover:text-sky-200'
                     href={"https://oneapi.nu.ac.cn"}
                     target='_blank'
                     rel='noreferrer'
@@ -194,7 +194,7 @@ const MonitorPanel: React.FC<IMonitorPanelProps> = (props) => {
                   const renderStatus = monitorData ? getChecksItemRenderStatus(monitorData, dateItem) : undefined
 
                   let color = cls`bg-sky-200`
-                  let textColor = cls`text-gray-300`
+                  let textColor = cls`text-sky-300`
                   let statusStr: React.ReactNode = null
 
                   switch (renderStatus) {
