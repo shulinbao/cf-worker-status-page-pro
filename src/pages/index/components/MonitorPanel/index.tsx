@@ -144,7 +144,7 @@ const MonitorPanel: React.FC<IMonitorPanelProps> = (props) => {
           return (
             <li key={item} className={cls`[&:not(:last-child)]:mb-2`}>
               <div className='mb-1 flex items-center gap-2'>
-                <h2 className='text-sky-500'>
+                <h2 className='text-blue-600'>
                   {title}
                 </h2>
                 {!!info.length && (
