@@ -3,9 +3,9 @@
 @tailwind utilities;
 
 body {
-  @apply bg-slate-50;
+  @apply bg-sky-50;
 }
 
 a {
-  @apply text-blue-500 hover:text-blue-400 hover:underline transition-all;
+  @apply text-sky-500 hover:text-sky-400 hover:underline transition-all;
 }
