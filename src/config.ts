@@ -22,7 +22,7 @@ export const config: Config = {
     },
     {
       id: 'public',
-      url: 'https://gpt.nu.ac.cn',
+      url: 'https://chat.nu.ac.cn',
       name: 'Public Chat Service',
       description: 'This is the server that the HorseGPT project provides for limited chat services to the public.',
       followRedirect: true,
