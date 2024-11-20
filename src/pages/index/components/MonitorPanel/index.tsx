@@ -178,7 +178,7 @@ const MonitorPanel: React.FC<IMonitorPanelProps> = (props) => {
                 && (!monitorConfig.method || monitorConfig.method.toUpperCase() === 'GET')
                 && (
                   <a
-                    className='i-ic--outline-open-in-new size-5 text-slate-600 hover:bg-slate-50'
+                    className='i-ic--outline-open-in-new size-5 text-slate-600 hover:bg-slate-200'
                     href={"https://gpt.nu.ac.cn"}
                     target='_blank'
                     rel='noreferrer'
