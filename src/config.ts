@@ -16,7 +16,7 @@ export const config: Config = {
     },
     {
       id: 'internal',
-      url: 'https://g.nu.ac.cn',
+      url: 'https://chat.nu.ac.cn',
       name: 'Internal Chat Service',
       description: 'This is the server that HorseGPT provides for testing services for internal developers.',
     },
